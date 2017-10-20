@@ -1,0 +1,13 @@
+http://jefferson.venerando.io/* https://jefferson.venerando.io/:splat 301!
+
+{{- range $page := .Site.Pages -}}
+  {{- range .Aliases -}}
+    {{- printf "%-60s %s %s" . $page.RelPermalink "\n" -}}
+    {{- range $transPage := $page.Translations -}}
+      {{- range .Aliases -}}
+        {{- printf "%-60s  %s%s" . $transPage.RelPermalink "\n" -}}
+      {{- end -}}
+    {{- end -}}
+    {{- printf "\n" -}}
+  {{- end -}}
+{{- end -}}

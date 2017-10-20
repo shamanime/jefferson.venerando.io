@@ -1,0 +1,11 @@
+{{- with .Site.GetPage "home" -}}
+  {{- range .Translations -}}
+    <a href='{{ .Permalink }}'>
+      {{- if eq .Lang "en" -}}
+        English
+      {{- else if eq .Lang "pt" -}}
+        Português
+      {{- end -}}
+    </a>
+  {{- end -}}
+{{- end -}}

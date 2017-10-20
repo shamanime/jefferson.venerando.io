@@ -1,0 +1,123 @@
+baseURL = "https://jefferson.venerando.io"
+title = "Jefferson 'shamanime' Venerando"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Language Configuration
+defaultContentLanguage = "pt"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = []
+customJS = []
+gopher = "" # used in 404 template [ https://gopherize.me ]
+
+[params.copyright]
+prefix = ""
+holder = "Jefferson"
+startYear = "2012"
+suffix = ""
+
+[params.settings]
+# date & time format: https:/assets/golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = false
+hideSocialMenu = false
+showReadTime = false
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+codepen = ""
+email = ""
+facebook = "shamanime"
+github = "shamanime"
+instagram = "shamanime"
+linkedin = "shamanime"
+twitter = "shamanime"
+
+[params.social.config]
+platforms = ["github","facebook","twitter"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[languages]
+# edit this block for your own language
+
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
+
+[languages.en.info]
+description = "Words, code and curses from a software developer."
+title404 = "Nothing's here, mate!"
+
+[languages.pt]
+lang = "pt"
+languageName = "Português"
+weight = 2
+
+[languages.pt.info]
+description = "Palavras, códigos e blasfêmias de um desenvolvedor de software."
+title404 = "Algo inexistente não foi encontrado..."
+
+[languages.pt.copyright]
+prefix = ""
+holder = "Jefferson"
+startYear = "2012"
+suffix = ""
+
+[languages.pt.taxonomies]
+author = "autores"
+category = "categorias"
+tag = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true

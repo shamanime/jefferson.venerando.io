@@ -1,0 +1,13 @@
+id = "jefferson"
+
+[email]
+username = "jefferson"
+host = "venerando.io"
+
+[name]
+display = "Jefferson"
+
+[social]
+email = ""
+facebook  = "shamanime"
+twitter = "shamanime"

@@ -1,0 +1,5 @@
+/favicon.*
+  Cache-Control: max-age=315360000, public
+
+/assets/*
+  Cache-Control: max-age=315360000, public
