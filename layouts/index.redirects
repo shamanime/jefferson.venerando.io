@@ -1,4 +1,7 @@
 http://jefferson.venerando.io/* https://jefferson.venerando.io/:splat 301!
+http://www.jefferson.venerando.io/* https://jefferson.venerando.io/:splat 301!
+http://venerando.io/* https://jefferson.venerando.io/:splat 301!
+http://www.venerando.io/* https://jefferson.venerando.io/:splat 301!
 
 {{- range $page := .Site.Pages -}}
   {{- range .Aliases -}}
