@@ -23,3 +23,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#recent-posts .list-item .meta {
+  display: none;
+}
