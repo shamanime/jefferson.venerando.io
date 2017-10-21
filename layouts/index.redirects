@@ -5,6 +5,14 @@ http://venerando.io/* https://jefferson.venerando.io/:splat 301!
 https://venerando.io/* https://jefferson.venerando.io/:splat 301!
 http://www.venerando.io/* https://jefferson.venerando.io/:splat 301!
 https://www.venerando.io/* https://jefferson.venerando.io/:splat 301!
+http://shamani.me/posts/* https://jefferson.venerando.io/blog/:splat 301!
+https://shamani.me/posts/* https://jefferson.venerando.io/blog/:splat 301!
+http://www.shamani.me/posts/* https://jefferson.venerando.io/blog/:splat 301!
+https://www.shamani.me/posts/* https://jefferson.venerando.io/blog/:splat 301!
+http://shamani.me/* https://jefferson.venerando.io/:splat 301!
+https://shamani.me/* https://jefferson.venerando.io/:splat 301!
+http://www.shamani.me/* https://jefferson.venerando.io/:splat 301!
+https://www.shamani.me/* https://jefferson.venerando.io/:splat 301!
 
 {{- range $page := .Site.Pages -}}
   {{- range .Aliases -}}
