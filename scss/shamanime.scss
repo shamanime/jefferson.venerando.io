@@ -1,0 +1,25 @@
+$light-purple: #ac8ece;
+$main-purple: #79589f;
+
+.comments-container #disqus_thread:before,
+.entry+.home-sections-container
+.home-sections:before,
+.entry-nav:before,
+.footer:before,
+.header:after,
+.prev-entry~.next-entry:before {
+  border-color: $main-purple;
+}
+
+.entry-content a:active, .entry-content a:focus, .entry-content a:hover {
+  color: $main-purple;
+  border-bottom-color: $light-purple;
+}
+
+h1 {
+  display: inline-block;
+  color: $main-purple; /*non-webkit fallback*/
+  background: -webkit-linear-gradient(135deg, #ac8ece, #79589f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

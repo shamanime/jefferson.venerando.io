@@ -22,7 +22,7 @@ title404 = "Nothing's here, mate!"
 
 [params.assets]
 favicon = "favicon.ico"
-customCSS = []
+customCSS = ["css/shamanime.css"]
 customJS = []
 gopher = "" # used in 404 template [ https://gopherize.me ]
 
