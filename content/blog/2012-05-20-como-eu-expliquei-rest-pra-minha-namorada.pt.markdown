@@ -1,9 +1,10 @@
 ---
-categories: REST
-comments: true
-date: 2012-05-20T00:00:00Z
 title: Como eu expliquei REST pra minha namorada
-url: /2012/05/20/como-eu-expliquei-rest-pra-minha-namorada/
+authors: ["jefferson"]
+date: 2012-05-20T00:00:00Z
+slug: como-eu-expliquei-rest-pra-minha-namorada
+categories:
+ - REST
 ---
 
 Esse é um assunto complicado, em vários lugares há publicações sobre [REST][rest], RESTful e outros termos derivados. E do outro lado da moeda, existe o bom e velho [SOAP][soap]. E até recentemente, li um artigo dizendo que um é 'evolução' do outro.

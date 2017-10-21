@@ -1,11 +1,11 @@
 ---
-categories:
-- Ubuntu
-- nginx
-comments: true
-date: 2012-06-14T00:00:00Z
 title: Rails + carrierwave + unicorn + nginx + progress module
-url: /2012/06/14/rails-plus-carrierwave-plus-unicorn-plus-nginx-plus-progress-module/
+authors: ["jefferson"]
+date: 2012-06-14T00:00:00Z
+slug: rails-plus-carrierwave-plus-unicorn-plus-nginx-plus-progress-module
+categories:
+ - Ubuntu
+ - nginx
 ---
 
 No último post eu expliquei como instalar e configurar o nginx com upload e upload progress module. Agora vamos fazer nossa aplicação funcionar com o Carrierwave e Unicorn.

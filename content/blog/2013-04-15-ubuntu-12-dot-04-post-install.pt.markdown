@@ -1,11 +1,11 @@
 ---
-categories:
-- Ubuntu
-- nginx
-comments: true
-date: 2013-04-15T00:00:00Z
 title: Ubuntu 12.04 post install
-url: /2013/04/15/ubuntu-12-dot-04-post-install/
+authors: ["jefferson"]
+date: 2013-04-15T00:00:00Z
+slug: ubuntu-12-dot-04-post-install
+categories:
+ - Ubuntu
+ - nginx
 ---
 
 ## Configuração inicial

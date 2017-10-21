@@ -1,12 +1,12 @@
 ---
-categories:
-- MongoDB
-- NoSQL
-- Talks
-comments: true
-date: 2012-07-13T00:00:00Z
 title: Quebrando paradigmas - MongoDB SP 2012
-url: /2012/07/13/quebrando-paradigmas-mongodb-sp/
+authors: ["jefferson"]
+date: 2012-07-13T00:00:00Z
+slug: quebrando-paradigmas-mongodb-sp
+categories:
+ - MongoDB
+ - NoSQL
+ - Talks
 ---
 
 Tive o privilégio de ser chamado para palestrar no [MongoDB São Paulo][mongosp], foi o primeiro evento grande que eu participei.

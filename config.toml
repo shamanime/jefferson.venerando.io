@@ -14,7 +14,11 @@ preserveTaxonomyNames = true
 pygmentsCodefences = true
 
 # Language Configuration
-defaultContentLanguage = "pt"
+DefaultContentLanguage = "pt"
+
+[params.info]
+description = "Words, code and curses from a software developer."
+title404 = "Nothing's here, mate!"
 
 [params.assets]
 favicon = "favicon.ico"
@@ -55,7 +59,7 @@ linkedin = "shamanime"
 twitter = "shamanime"
 
 [params.social.config]
-platforms = ["github","facebook","twitter"]
+platforms = ["github", "facebook", "twitter"]
 
 [taxonomies]
 author = "authors"
@@ -70,54 +74,46 @@ changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
 
-[languages]
-# edit this block for your own language
-
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
-
-[languages.en.info]
-description = "Words, code and curses from a software developer."
-title404 = "Nothing's here, mate!"
-
-[languages.pt]
-lang = "pt"
-languageName = "Português"
-weight = 2
-
-[languages.pt.info]
-description = "Palavras, códigos e blasfêmias de um desenvolvedor de software."
-title404 = "Algo inexistente não foi encontrado..."
-
-[languages.pt.copyright]
-prefix = ""
-holder = "Jefferson"
-startYear = "2012"
-suffix = ""
-
-[languages.pt.taxonomies]
-author = "autores"
-category = "categorias"
-tag = "tags"
-
 [blackfriday]
 hrefTargetBlank = true
 
+
+[languages]
+# edit this block for your own language
+  [languages.en]
+  lang = "en"
+  languageName = "English"
+  weight = 1
+
+  [languages.pt]
+  lang = "pt"
+  languageName = "Português"
+  weight = 2
+
+  [languages.pt.info]
+  description = "Palavras, códigos e blasfêmias de um desenvolvedor de software."
+  title404 = "Algo inexistente não foi encontrado..."
+
+  [languages.pt.copyright]
+  prefix = ""
+  holder = "Jefferson"
+  startYear = "2012"
+  suffix = ""
+
 [mediaTypes]
-[mediaTypes."text/netlify"]
-suffix = ""
-delimiter = ""
+  [mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
 
 [outputFormats]
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-[outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
+  [outputFormats.REDIRECTS]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+
+  [outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true

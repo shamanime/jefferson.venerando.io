@@ -1,10 +1,10 @@
 ---
-categories:
-- Ubuntu
-comments: true
-date: 2012-06-13T00:00:00Z
 title: Instalando nginx com upload module e upload progress
-url: /2012/06/13/instalando-nginx-com-upload-module-e-upload-progress/
+authors: ["jefferson"]
+date: 2012-06-13T00:00:00Z
+slug: instalando-nginx-com-upload-module-e-upload-progress
+categories:
+ - Ubuntu
 ---
 
 Quando o assunto é upload de arquivos a dor de cabeça é quase inevitável. Algumas semanas atrás precisei construir um sistema para upload de arquivos grandes pra um cliente, e durante o caminho aprendi alguns truques úteis.

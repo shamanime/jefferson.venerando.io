@@ -1,10 +1,10 @@
 ---
-categories:
-- Ubuntu
-comments: true
-date: 2012-05-29T00:00:00Z
 title: TS3 Server no Ubuntu
-url: /2012/05/29/ts3-server-no-ubuntu/
+authors: ["jefferson"]
+date: 2012-05-29T00:00:00Z
+slug: ts3-server-no-ubuntu
+categories:
+ - Ubuntu
 ---
 
 Um pequeno tutorial sobre como instalar o TeamSpeak 3 no Ubuntu 12.04 LTS.

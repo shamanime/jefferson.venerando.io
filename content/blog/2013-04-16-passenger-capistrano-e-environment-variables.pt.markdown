@@ -1,12 +1,12 @@
 ---
-categories:
-- Passenger
-- Capistrano
-- Deploy
-comments: true
-date: 2013-04-16T00:00:00Z
+authors: ["jefferson"]
 title: Passenger, Capistrano e environment variables
-url: /2013/04/16/passenger-capistrano-e-environment-variables/
+date: 2013-04-16T00:00:00Z
+slug: passenger-capistrano-e-environment-variables
+categories:
+ - Passenger
+ - Capistrano
+ - Deploy
 ---
 
 ## Capistrano

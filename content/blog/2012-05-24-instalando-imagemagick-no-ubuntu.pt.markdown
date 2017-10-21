@@ -1,10 +1,10 @@
 ---
-categories:
-- Ubuntu
-comments: true
-date: 2012-05-24T00:00:00Z
 title: Instalando ImageMagick no Ubuntu
-url: /2012/05/24/instalando-imagemagick-no-ubuntu/
+authors: ["jefferson"]
+date: 2012-05-24T00:00:00Z
+slug: instalando-imagemagick-no-ubuntu
+categories:
+ - Ubuntu
 ---
 
 ImageMagick é um utilitário que uso em muitos projetos, e sempre foi problema pra ser instalado.

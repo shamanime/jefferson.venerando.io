@@ -2,7 +2,7 @@
 title: NoSQL e MongoDB
 authors: ["jefferson"]
 date: 2012-05-10T00:00:00Z
-slug: nosql-e-mongodb
+slug: nosql-and-mongodb
 categories:
  - NoSQL
  - MongoDB
